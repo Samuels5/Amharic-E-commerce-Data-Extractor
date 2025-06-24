@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Data and outputs
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.db
+*.sqlite
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Model artifacts
+*.pt
+*.pth
+*.h5
+*.onnx
+*.ckpt
+*.pb
+*.tflite
+*.joblib
+*.pkl
+*.sav
+*.npz
+*.npy
+
+# HuggingFace/transformers
+*.cache/
+*.bin
+
+# Environment
+.env
+.env.*
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results and plots
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.gif
+*.json
+
+# Ignore saved models and logs
+er_model*/
+logs*/
+
+Data/
+ner_model_mbert/
+ner_model_final/
+ner_model/
+# Allow tracked data and notebooks
+!*.ipynb
